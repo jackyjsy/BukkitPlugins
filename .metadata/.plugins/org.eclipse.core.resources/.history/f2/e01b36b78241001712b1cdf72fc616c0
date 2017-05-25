@@ -1,0 +1,16 @@
+package io.github.jackyjsy.quickhouse;
+
+import org.bukkit.plugin.java.JavaPlugin;
+
+public final class QuickHouse extends JavaPlugin {
+    @Override
+    public void onEnable() {
+    	getLogger().info("onEnable has been invoked!");
+    	// 插件载入时要执行的代码（略）
+    }
+    
+    @Override
+    public void onDisable() {
+        // 插件卸载时要执行的代码（略）
+    }
+}

@@ -1,0 +1,7 @@
+name: quickhouse
+main: io.github.jackyjsy.quickhouse.QuickHouse
+version: 0.0.1
+commands:
+  quickhouse:
+     description: This is a demo command.
+     usage: /<command> [choice]
